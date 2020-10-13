@@ -27,7 +27,7 @@ def create_app(test_config=None):
         return 'pong!'
 
     from . import db
-    db.init_app()
+    db.init_app(app)
 
     return app
 
