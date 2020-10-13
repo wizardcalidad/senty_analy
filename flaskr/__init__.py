@@ -27,3 +27,6 @@ def create_app(test_config=None):
         return 'pong!'
 
     return app
+
+
+grt = create_app()
